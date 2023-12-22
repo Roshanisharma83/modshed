@@ -1,0 +1,835 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+/*
+body:before{
+    content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+.col-3 {
+    width: 25%;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+}
+
+.head-button {
+    justify-content: center;
+    display: flex;
+}
+
+.logo {
+    width: 350px;
+}
+
+.logo img {
+    width: 240px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contact-cart i {
+    padding-right: 1rem;
+}
+
+.contact-cart span {
+    padding-right: 2rem;
+}
+
+.nav {
+    flex-grow: 1;
+    width: auto;
+}
+
+.contact-cart {
+    padding-top: 2rem;
+}
+
+.main-nav li a {
+    color: black;
+    float: left;
+    margin: 2rem 2rem;
+    font-size: 16px;
+}
+
+.banner {
+    background-image: url(./image/main_banner.png);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.banner h2,
+p {
+    justify-content: center;
+    display: flex;
+}
+
+.banner h2 {
+    padding-top: 12rem;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.banner p {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.banner button {
+    margin-bottom: 10rem;
+    margin-bottom: 10rem;
+    background-color: #244b84;
+    /*border: 1px solid #a8aeaa;*/
+    border: 0px;
+    border-radius: 40px;
+    padding: 1.5rem 3rem;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 2rem 0rem 2rem 1rem;
+}
+
+.prmo-text {
+    width: 100%;
+    display: flex;
+    padding: 3rem 3rem;
+}
+
+.prmo-heading {
+    width: 50%;
+}
+
+.prmo-heading h2 {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.prmo-pragraph {
+    flex-grow: 1;
+    width: 50%;
+}
+
+.prmo-pragraph p {
+    font-size: 18px;
+    color: #707070;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+}
+
+.system-prmo {
+    background-color: #181348;
+}
+
+.system-prmo h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem 0rem
+}
+
+.work-system {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.design {
+    border: 1px solid #151c50;
+    border-radius: 13rem;
+    padding: 3rem;
+    background: #131646;
+}
+
+.deliver {
+    border: 1px solid #151c50;
+    border-radius: 13rem;
+    padding: 3rem;
+    background: #131646;
+}
+
+.install {
+    border: 1px solid #151c50;
+    border-radius: 6rem;
+    padding: 3rem;
+    background: #131646;
+}
+
+.arrow {
+    padding-top: 3.5rem;
+}
+
+.main-system {
+    padding-top: 2rem;
+}
+
+.main-system p {
+    color: #70d2ff
+}
+
+.main-system span {
+    color: #b7b7b7;
+    padding: 0rem 0rem 1rem 1rem;
+}
+
+.social-network {
+    display: flex;
+}
+
+.clint-review {
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #efefef;
+}
+
+.review {
+    display: flex;
+}
+
+.gust-review {
+    padding-top: 1rem;
+}
+
+.checked {
+    color: orange;
+}
+
+.video-review {
+    width: 50%;
+}
+
+.clint-feedback {
+    width: 50%;
+    padding-top: 13rem;
+}
+
+.clint-feedback h3 {
+    margin-top: 2rem;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.blog-posts {
+    text-align: center;
+}
+
+.blogs {
+    display: flex;
+}
+
+.blog-details {
+    padding-right: 2rem;
+}
+
+.blog-details p {
+    color: #707070;
+    padding-top: 3rem;
+}
+
+.about-blog {
+    border-bottom: 1px solid #b2b2b2;
+}
+
+.about-blogs {
+    border-left: 2px solid #00aeef;
+    margin: 1rem 0 1rem;
+}
+
+.about-blogs span {
+    color: #00aeef;
+    padding-left: 0.3rem;
+}
+
+.about-blog h5 {
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.view-blog {
+    border: 1px solid #387aba;
+    padding: 20px;
+    margin: 2rem 2rem;
+    background: #ffffff;
+    border-radius: 5px;
+    color: #2664ad;
+}
+
+.heading {
+    margin: 2rem 2rem;
+}
+
+.pre-footer {
+    background-image: url(./image/prefooter.png);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding: 3rem 3rem;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.install-icon {
+    display: flex;
+    color: #fff;
+}
+
+.finance {
+    display: flex;
+    color: #fff;
+}
+
+.service-information {
+    margin-left: 1rem;
+}
+
+.service-information p {
+    font-size: 13px;
+}
+
+.servic {
+    display: flex;
+    color: #fff;
+}
+
+.trusted-review {
+    display: flex;
+    ;
+    color: #fff;
+}
+
+.footer {
+    background-color: #181348;
+}
+
+.footer-menu h5 {
+    color: #64b9e7;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 1rem;
+}
+
+.footer-menu a {
+    color: #82bacc!important;
+}
+
+.main-footer {
+    display: flex;
+    padding: 3rem 3rem;
+    border-bottom: 1px solid #22325a;
+}
+
+.footer-menu {
+    padding-right: 3rem;
+    line-height: 1.5rem;
+}
+
+.news-menu input {
+    border: 0px;
+    padding: 10px 100px 10px 10px;
+    background: #071433;
+    margin-bottom: 1rem;
+}
+
+.news-menu h5 {
+    color: #64b9e7;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 1rem;
+}
+
+.news-menu {
+    padding-right: 3rem;
+}
+
+.news-menu button {
+    padding: 10px;
+    background: #ff9000;
+    border: 0px;
+    color: #fff;
+}
+
+.socialmedia h5 {
+    color: #8aa3c0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.socialmedia {
+    padding-top: 5rem;
+}
+
+.mainsystem {
+    display: flex;
+    justify-content: space-around;
+}
+
+.all-rights {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 50px 0px;
+    color: #a9b6d8;
+}
+
+.payment img {
+    margin-left: 0.5rem;
+}
+
+.policy {
+    display: flex;
+}
+
+.policy span {
+    padding: 0px 12px 0px 11px;
+}
+
+.facebook {
+    border: 1px solid #b4b4b7;
+    border-radius: 23px;
+    padding: 11px 16px;
+}
+
+.link {
+    border: 1px solid #b4b4b7;
+    border-radius: 20px;
+    padding: 11px 12px;
+    margin-left: 1rem;
+}
+
+.twiter {
+    border: 1px solid #b4b4b7;
+    border-radius: 23px;
+    padding: 11px 12px;
+    margin-left: 1rem;
+}
+
+.insta {
+    border: 1px solid #b4b4b7;
+    border-radius: 23px;
+    padding: 11px 12px;
+    margin-left: 1rem;
+}
+
+.network {
+    border: 1px solid #b4b4b7;
+    border-radius: 23px;
+    padding: 11px 12px;
+    margin-left: 1rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .nav {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background: #fff;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+    .main-nav {
+        display: grid;
+    }
+    .main-nav li a {
+        float: right;
+    }
+    .banner {
+        background-image: url(./image/main_banner.png);
+        width: 100%;
+        background-size: cover;
+    }
+    .banner h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .banner p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .banner button {
+        font-size: 0.5rem;
+        padding: 1rem 1rem;
+    }
+    .prmo-text {
+        display: block;
+    }
+    .prmo-heading {
+        width: 100%;
+    }
+    .prmo-pragraph {
+        width: 100%;
+    }
+    .prmo-text {
+        padding: 2rem 0rem 2rem;
+    }
+    .prmo-pragraph p {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .prmo-heading h2 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .review {
+        display: block;
+    }
+    .video-review {
+        width: 100%;
+    }
+    .video-review img {
+        width: 100%
+    }
+    .clint-feedback {
+        width: 100%;
+        padding-top: 0rem;
+    }
+    .nav {
+        display: block;
+    }
+    .hamburger {
+        display: block;
+        padding-top: 20px;
+    }
+    .blogs {
+        display: block;
+    }
+    .blog-details img {
+        width: 100%
+    }
+    .blog-details {
+        padding: 0px;
+    }
+    .blog-details p {
+        padding-bottom: 2rem;
+    }
+    .work-system {
+        display: block;
+    }
+    .mainsystem {
+        display: block;
+    }
+    .system-prmo {
+        display: none;
+    }
+    .main-footer {
+        display: block;
+        text-align: center;
+    }
+    .clint-feedback {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .payment {
+        display: flex;
+    }
+    .info-footer {
+        display: block;
+    }
+    .finance {
+        padding-top: 2rem;
+    }
+    .servic {
+        padding-top: 2rem;
+    }
+    .trusted-review {
+        padding-top: 2rem;
+    }
+    .main-footer {
+        padding: 0rem;
+    }
+    .footer-menu {
+        padding: 0rem;
+    }
+    .news-menu {
+        padding: 0px;
+    }
+    .news-menu form {
+        display: none;
+    }
+    .news-menu h5 {
+        display: none;
+    }
+    .social-network {
+        padding: 2rem;
+    }
+    .socialmedia h5 {
+        margin: 0px;
+    }
+    .payment {
+        padding-top: 2rem;
+    }
+    .payment img {
+        padding-left: 0.5rem;
+    }
+    .policy {
+        display: none;
+    }
+    .all-rights {
+        display: block;
+    }
+    .footer-menu h5 {
+        padding-top: 2rem;
+    }
+    .contact-cart {
+        float: right;
+        display: grid;
+        padding: 0px;
+    }
+    .contact-cart span {
+        padding-top: 1.5rem;
+        float: left;
+        margin-left: 2rem;
+    }
+    .closebtn {
+        font-size: 2rem;
+        color: #000;
+        margin: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .nav {
+        display: block!important;
+    }
+    .closebtn {
+        display: none!important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+    .header {
+        justify-content: space-around;
+        display: flex;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .nav {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background: #fff;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+    .main-nav {
+        display: grid;
+    }
+    .main-nav li a {
+        float: right;
+    }
+    .banner {
+        background-image: url(./image/main_banner.png);
+        width: 100%;
+        background-size: cover;
+    }
+    .banner h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .banner p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .banner button {
+        font-size: 0.5rem;
+        padding: 1rem 1rem;
+    }
+    .prmo-text {
+        display: block;
+    }
+    .prmo-heading {
+        width: 100%;
+    }
+    .prmo-pragraph {
+        width: 100%;
+    }
+    .prmo-text {
+        padding: 2rem 0rem 2rem;
+    }
+    .prmo-pragraph p {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .prmo-heading h2 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .review {
+        display: block;
+    }
+    .video-review {
+        width: 100%;
+    }
+    .video-review img {
+        width: 100%
+    }
+    .clint-feedback {
+        width: 100%;
+        padding-top: 0rem;
+    }
+    .nav {
+        display: block;
+    }
+    .hamburger {
+        display: block;
+        padding-top: 20px;
+    }
+    .blogs {
+        display: block;
+    }
+    .blog-details img {
+        width: 100%
+    }
+    .blog-details {
+        padding: 0px;
+    }
+    .blog-details p {
+        padding-bottom: 2rem;
+    }
+    .work-system {
+        display: block;
+    }
+    .mainsystem {
+        display: block;
+    }
+    .system-prmo {
+        display: none;
+    }
+    .main-footer {
+        display: block;
+        text-align: center;
+    }
+    .clint-feedback {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .payment {
+        display: flex;
+        justify-content: center;
+    }
+    .info-footer {
+        display: block;
+    }
+    .finance {
+        padding-top: 2rem;
+    }
+    .servic {
+        padding-top: 2rem;
+    }
+    .trusted-review {
+        padding-top: 2rem;
+    }
+    .main-footer {
+        padding: 0rem;
+    }
+    .footer-menu {
+        padding: 0rem;
+    }
+    .news-menu {
+        padding: 0px;
+    }
+    .news-menu form {
+        display: none;
+    }
+    .news-menu h5 {
+        display: none;
+    }
+    .social-network {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .socialmedia h5 {
+        margin: 0px;
+    }
+    .payment {
+        padding-top: 2rem;
+    }
+    .payment img {
+        padding-left: 0.5rem;
+    }
+    .policy {
+        display: none;
+    }
+    .all-rights {
+        display: block;
+    }
+    .footer-menu h5 {
+        padding-top: 2rem;
+    }
+    .contact-cart {
+        float: right;
+        display: grid;
+        padding: 0px;
+    }
+    .contact-cart span {
+        padding-top: 1.5rem;
+        float: left;
+        margin-left: 2rem;
+    }
+    .closebtn {
+        font-size: 2rem;
+        color: #000;
+        margin: 1rem;
+    }
+    .info-footer {
+        justify-content: center;
+        display: block;
+    }
+}
